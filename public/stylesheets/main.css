@@ -22,6 +22,14 @@
   
 }
 
+.jake-image {
+  background: url('../images/jake2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
 .Kyuss-image {
   background: url('../images/kyuss-king.jpg');
   background-size: cover;

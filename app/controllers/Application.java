@@ -8,6 +8,7 @@ import views.html.Skip;
 import views.html.Megan;
 import views.html.Kyuss;
 import views.html.JohnJohnFlorence;
+import views.html.jake;
 
 /**
  * Implements the controllers for this application.
@@ -54,5 +55,12 @@ public class Application extends Controller {
     return ok(JohnJohnFlorence.render(""));
     
   }
-  
+  /**
+   * Returns Jake page.
+   * @return Jake Page.
+   */
+  public static Result jake() {
+    return ok(jake.render(""));
+    
+  }
 }
