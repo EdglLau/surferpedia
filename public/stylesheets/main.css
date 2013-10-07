@@ -1,0 +1,32 @@
+
+
+.header {
+  background: url('../images/surf.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.Skip-image {
+  background: url('../images/Skip-frye.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.megan-image {
+  background: url('../images/megan.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
+.Kyuss-image {
+  background: url('../images/kyuss-king.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
