@@ -1,6 +1,6 @@
 surferpedia
 ===========
-
+![screenshot](https://raw.github.com/EdglLau/surferpedia/master/doc/screen.png)
 
 Overview
 ------------
