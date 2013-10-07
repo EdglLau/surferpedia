@@ -7,6 +7,7 @@ import views.html.Page1;
 import views.html.Skip;
 import views.html.Megan;
 import views.html.Kyuss;
+import views.html.JohnJohnFlorence;
 
 /**
  * Implements the controllers for this application.
@@ -44,4 +45,14 @@ public class Application extends Controller {
     return ok(Kyuss.render(""));
     
   }
+  
+  /**
+   * Returns John John Florence Page.
+   * @return The John John Florence Page.
+   */
+  public static Result JohnJohnFlorence() {
+    return ok(JohnJohnFlorence.render(""));
+    
+  }
+  
 }
