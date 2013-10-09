@@ -7,6 +7,7 @@ import views.html.Page1;
 import views.html.Skip;
 import views.html.Megan;
 import views.html.Kyuss;
+import views.html.Anastasia;
 import views.html.JohnJohnFlorence;
 import views.html.jake;
 
@@ -39,6 +40,11 @@ public class Application extends Controller {
   
   public static Result Megan() {
     return ok(Megan.render(""));
+    
+  }
+  
+  public static Result Anastasia() {
+    return ok(Anastasia.render(""));
     
   }
   

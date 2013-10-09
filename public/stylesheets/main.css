@@ -14,6 +14,14 @@
   height: 500px;
 }
 
+.anastasia-image {
+  background: url('../images/anastasia.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+
 .megan-image {
   background: url('../images/megan.jpg');
   background-size: cover;
