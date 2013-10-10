@@ -8,7 +8,7 @@
 }
 
 .Skip-image {
-  background: url('../images/Skip-frye.jpg');
+  background: url('../images/skip.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -31,7 +31,7 @@
 }
 
 .jake-image {
-  background: url('../images/jake2.jpg');
+  background: url('../images/jake.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -39,7 +39,7 @@
 }
 
 .Kyuss-image {
-  background: url('../images/kyuss-king.jpg');
+  background: url('../images/kyuss.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -47,8 +47,8 @@
 }
 
 .jjflorence {
-  background: url("../images/JohnJohnFlorence.jpg");
+  background: url("../images/john.jpg");
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
 }

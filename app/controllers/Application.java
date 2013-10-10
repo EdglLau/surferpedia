@@ -3,13 +3,12 @@ package controllers;
 import play.mvc.Controller;
 import play.mvc.Result;
 import views.html.Index;
-import views.html.Page1;
 import views.html.Skip;
 import views.html.Megan;
 import views.html.Kyuss;
 import views.html.Anastasia;
 import views.html.JohnJohnFlorence;
-import views.html.jake;
+import views.html.Jake;
 
 /**
  * Implements the controllers for this application.
@@ -25,48 +24,50 @@ public class Application extends Controller {
   }
   
   /**
-   * Returns page1, a simple example of a second page to illustrate navigation.
-   * @return The Page1.
+   * Returns the Skip page.
+   * @return Skip.
    */
-  public static Result page1() {
-    return ok(Page1.render("Welcome to Page1."));
-    
-  }
-  
-  public static Result Skip() {
+  public static Result skip() {
     return ok(Skip.render(""));
     
   }
   
-  public static Result Megan() {
+  /**
+   * Returns the Megan page.
+   * @return Megan.
+   */
+  public static Result megan() {
     return ok(Megan.render(""));
-    
   }
   
-  public static Result Anastasia() {
+  /**
+   * Returns the Anastasia page.
+   * @return Anastasia.
+   */
+  public static Result anastasia() {
     return ok(Anastasia.render(""));
-    
   }
   
-  public static Result Kyuss() {
+  /**
+   * Returns the Kyuss page.
+   * @return Kyuss.
+   */
+  public static Result kyuss() {
     return ok(Kyuss.render(""));
-    
   }
   
   /**
    * Returns John John Florence Page.
    * @return The John John Florence Page.
    */
-  public static Result JohnJohnFlorence() {
-    return ok(JohnJohnFlorence.render(""));
-    
+  public static Result johnJohnFlorence() {
+    return ok(JohnJohnFlorence.render(""));  
   }
   /**
    * Returns Jake page.
    * @return Jake Page.
    */
   public static Result jake() {
-    return ok(jake.render(""));
-    
+    return ok(Jake.render(""));
   }
 }
